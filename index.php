@@ -1,5 +1,5 @@
-Log in Page
-<form action="loginconfirm.php">
+Log in Page1
+<form action="loginconfirm.php" method="POST">
 
 <input type="text" name="un" placeholder="Enter Your Full Name" required>
 <br>
