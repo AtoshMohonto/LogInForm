@@ -7,6 +7,12 @@ if(isset($_POST['un']) && isset($_POST['p']) ){
 
     echo $un;
     echo $p;
+    $p=md5($p);
+ 
+
+
+
+
 }
 else{
     echo "Not set";
